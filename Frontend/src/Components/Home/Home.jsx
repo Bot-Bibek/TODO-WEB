@@ -1,21 +1,22 @@
 import React, { useState } from "react";
 
 const App = () => {
-
-    const [tab, setTabs] = useState(1);
-
-    const handleTabs = (tab) =>{
-        setTabs(tab)
-        console.log(tab);
-    }
+	const [tab, setTabs] = useState(1);
+	//Handle Tabs Function
+	const handleTabs = (tab) => {
+		setTabs(tab);
+		console.log(tab);
+	};
 	return (
 		<div className="container mx-auto p-4 max-w-md">
+			{/* Heading Dev */}
 			<div className="mb-6">
 				<h2 className="text-2xl font-bold text-center text-gray-800">
 					TO-DO LIST
 				</h2>
 			</div>
 
+			{/* Placeholder and add button */}
 			<div className="flex space-x-2">
 				<input
 					type="text"
@@ -27,12 +28,29 @@ const App = () => {
 				</button>
 			</div>
 
-            <div className="flex space-x-10 justify-center mt-4">
-                <p onClick={() => handleTabs(1)}>All</p>
-                <p onClick={() => handleTabs(2)}>Active</p>
-                <p onClick={() => handleTabs(3)}>Completed</p>
-            </div>
+			{/* Tab Navigation */}
+			<div className="flex space-x-10 justify-center mt-4">
+				<p
+					onClick={() => handleTabs(1)}
+					className="cursor-pointer font-semibold hover:text-blue-700"
+				>
+					All
+				</p>
+				<p
+					onClick={() => handleTabs(2)}
+					className="cursor-pointer font-semibold hover:text-blue-700"
+				>
+					Active
+				</p>
+				<p
+					onClick={() => handleTabs(3)}
+					className="cursor-pointer font-semibold hover:text-blue-700"
+				>
+					Completed
+				</p>
+			</div>
 
+			{/* Task List */}
 			<div className="max-w-md mx-auto bg-white shadow-md rounded-lg p-6 mt-4">
 				<div className="mb-4">
 					<p className="text-xl font-semibold">Buy Rice</p>
@@ -40,6 +58,7 @@ const App = () => {
 					<p className="text-green-600 font-medium">Status: Active</p>
 				</div>
 
+				{/* Buttons */}
 				<div className="flex space-x-2">
 					<button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition duration-200">
 						Edit
