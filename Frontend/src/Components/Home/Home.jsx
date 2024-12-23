@@ -32,19 +32,25 @@ const App = () => {
 			<div className="flex space-x-10 justify-center mt-4">
 				<p
 					onClick={() => handleTabs(1)}
-					className="cursor-pointer font-semibold hover:text-blue-700"
+					className={
+						`${tab === 1 ? 'text-blue-700': 'text-black'} cursor-pointer font-semibold`
+					}
 				>
 					All
 				</p>
 				<p
 					onClick={() => handleTabs(2)}
-					className="cursor-pointer font-semibold hover:text-blue-700"
+					className={
+						`${tab === 2 ? 'text-blue-700': 'text-black'} cursor-pointer font-semibold`
+					}
 				>
 					Active
 				</p>
 				<p
 					onClick={() => handleTabs(3)}
-					className="cursor-pointer font-semibold hover:text-blue-700"
+					className={
+						`${tab === 3 ? 'text-blue-700': 'text-black'} cursor-pointer font-semibold`
+					}
 				>
 					Completed
 				</p>
