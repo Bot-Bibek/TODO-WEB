@@ -1,12 +1,20 @@
 import { useState } from "react";
+import axios from "axios";
 
 const App = () => {
 	const [tab, setTabs] = useState(1);
+	const [task, setTask] = useState(null);
 	//Handle Tabs Function
+
 	const handleTabs = (tab) => {
 		setTabs(tab);
-		console.log(tab);
 	};
+
+	const handleAddTask = (e) =>{
+		e.preventDefault();
+		axios.post('http://localhost:5000/new-task', {task});
+
+	}
 	return (
 		<div className="container mx-auto p-4 max-w-md">
 			{/* Heading Dev */}
@@ -19,11 +27,13 @@ const App = () => {
 			{/* Placeholder and add button */}
 			<div className="flex space-x-2">
 				<input
+					value={task}
+					onChange={(e) => setTask(e.target.value)}
 					type="text"
 					placeholder="Enter Your Task"
 					className="flex-grow px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
 				/>
-				<button className="px-4 py-2 bg-blue-500 text-white font-semibold rounded-lg hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400">
+				<button onClick={handleAddTask} className="px-4 py-2 bg-blue-500 text-white font-semibold rounded-lg hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400">
 					Add Task
 				</button>
 			</div>
@@ -32,25 +42,25 @@ const App = () => {
 			<div className="flex space-x-10 justify-center mt-4">
 				<p
 					onClick={() => handleTabs(1)}
-					className={
-						`${tab === 1 ? 'text-blue-700': 'text-black'} cursor-pointer font-semibold`
-					}
+					className={`${
+						tab === 1 ? "text-blue-700" : "text-black"
+					} cursor-pointer font-semibold`}
 				>
 					All
 				</p>
 				<p
 					onClick={() => handleTabs(2)}
-					className={
-						`${tab === 2 ? 'text-blue-700': 'text-black'} cursor-pointer font-semibold`
-					}
+					className={`${
+						tab === 2 ? "text-blue-700" : "text-black"
+					} cursor-pointer font-semibold`}
 				>
 					Active
 				</p>
 				<p
 					onClick={() => handleTabs(3)}
-					className={
-						`${tab === 3 ? 'text-blue-700': 'text-black'} cursor-pointer font-semibold`
-					}
+					className={`${
+						tab === 3 ? "text-blue-700" : "text-black"
+					} cursor-pointer font-semibold`}
 				>
 					Completed
 				</p>
