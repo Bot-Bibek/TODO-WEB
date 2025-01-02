@@ -12,6 +12,7 @@ const App = () => {
 
 	const handleAddTask = (e) =>{
 		e.preventDefault();
+		//Using Axios to send data to the backend
 		axios.post('http://localhost:5000/new-task', {task});
 
 	}
