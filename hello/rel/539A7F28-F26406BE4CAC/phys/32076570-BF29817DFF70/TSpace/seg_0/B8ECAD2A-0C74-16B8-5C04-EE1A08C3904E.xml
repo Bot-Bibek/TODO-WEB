@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableSpaceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableSpaceOraclev10g" name="SYSTEM" directorySegmentName="seg_0" id="B8ECAD2A-0C74-16B8-5C04-EE1A08C3904E">
+<sourceConnName>Project Management</sourceConnName>
+<sourceObjSchema>BIBEK</sourceObjSchema>
+<sourceObjName>SYSTEM</sourceObjName>
+<createdBy>Acer</createdBy>
+<createdTime>2025-01-03 02:12:08 UTC</createdTime>
+<ownerDesignName>hello</ownerDesignName>
+<emUniformSize>0</emUniformSize>
+<extentManagement>LOCAL</extentManagement>
+</TableSpaceOraclev10g>

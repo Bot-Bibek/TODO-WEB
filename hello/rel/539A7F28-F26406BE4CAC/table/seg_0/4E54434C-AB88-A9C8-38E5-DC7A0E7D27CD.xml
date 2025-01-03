@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4E54434C-AB88-A9C8-38E5-DC7A0E7D27CD" schemaObject="4F71788B-27E1-5A85-5D6E-9FF6F4143253" name="PROJECT">
+<sourceConnName>Project Management</sourceConnName>
+<sourceObjSchema>BIBEK</sourceObjSchema>
+<sourceObjName>PROJECT</sourceObjName>
+<createdBy>Acer</createdBy>
+<createdTime>2025-01-03 02:12:08 UTC</createdTime>
+<ownerDesignName>hello</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PROJECTID" id="116F12C3-E522-F166-8EC5-D652CC387592">
+<sourceConnName>Project Management</sourceConnName>
+<sourceObjSchema>PROJECT</sourceObjSchema>
+<sourceObjName>PROJECTID</sourceObjName>
+<createdBy>Acer</createdBy>
+<createdTime>2025-01-03 02:12:08 UTC</createdTime>
+<ownerDesignName>hello</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROJECTNAME" id="047B480E-905E-4DE9-7215-5BC7735C1462">
+<sourceConnName>Project Management</sourceConnName>
+<sourceObjSchema>PROJECT</sourceObjSchema>
+<sourceObjName>PROJECTNAME</sourceObjName>
+<createdBy>Acer</createdBy>
+<createdTime>2025-01-03 02:12:08 UTC</createdTime>
+<ownerDesignName>hello</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROJECTSTARTDATE" id="3D72CE0F-CADF-D4EA-FF28-806DE5AEEFEA">
+<sourceConnName>Project Management</sourceConnName>
+<sourceObjSchema>PROJECT</sourceObjSchema>
+<sourceObjName>PROJECTSTARTDATE</sourceObjName>
+<createdBy>Acer</createdBy>
+<createdTime>2025-01-03 02:12:08 UTC</createdTime>
+<ownerDesignName>hello</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROJECTENDDATE" id="1901C151-52D2-7A3D-7586-B2869C019F84">
+<sourceConnName>Project Management</sourceConnName>
+<sourceObjSchema>PROJECT</sourceObjSchema>
+<sourceObjName>PROJECTENDDATE</sourceObjName>
+<createdBy>Acer</createdBy>
+<createdTime>2025-01-03 02:12:08 UTC</createdTime>
+<ownerDesignName>hello</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROJECTSTATUS" id="65785C95-BC87-DB60-27F1-A87CA6C7EE59">
+<sourceConnName>Project Management</sourceConnName>
+<sourceObjSchema>PROJECT</sourceObjSchema>
+<sourceObjName>PROJECTSTATUS</sourceObjName>
+<createdBy>Acer</createdBy>
+<createdTime>2025-01-03 02:12:08 UTC</createdTime>
+<ownerDesignName>hello</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EB73E4F5-66A3-0BC1-A9FE-8FCD93CA6916" schemaObject="4F71788B-27E1-5A85-5D6E-9FF6F4143253" name="PROJECT_PK">
+<sourceConnName>Project Management</sourceConnName>
+<sourceObjSchema>BIBEK</sourceObjSchema>
+<sourceObjName>SYS_C007163</sourceObjName>
+<createdBy>Acer</createdBy>
+<createdTime>2025-01-03 02:12:08 UTC</createdTime>
+<ownerDesignName>hello</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="116F12C3-E522-F166-8EC5-D652CC387592"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

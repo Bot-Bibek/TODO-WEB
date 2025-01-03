@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="364D5063-B496-6EF5-1616-B4E6A9C67112" schemaObject="4F71788B-27E1-5A85-5D6E-9FF6F4143253" name="GRADE">
+<sourceConnName>Project Management</sourceConnName>
+<sourceObjSchema>BIBEK</sourceObjSchema>
+<sourceObjName>GRADE</sourceObjName>
+<createdBy>Acer</createdBy>
+<createdTime>2025-01-03 02:12:08 UTC</createdTime>
+<ownerDesignName>hello</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="GRADEID" id="4D183063-ABFF-F319-A356-929174E852F1">
+<sourceConnName>Project Management</sourceConnName>
+<sourceObjSchema>GRADE</sourceObjSchema>
+<sourceObjName>GRADEID</sourceObjName>
+<createdBy>Acer</createdBy>
+<createdTime>2025-01-03 02:12:08 UTC</createdTime>
+<ownerDesignName>hello</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SALARY" id="761E1672-CF46-4A6A-04A5-CCDCAECA7767">
+<sourceConnName>Project Management</sourceConnName>
+<sourceObjSchema>GRADE</sourceObjSchema>
+<sourceObjName>SALARY</sourceObjName>
+<createdBy>Acer</createdBy>
+<createdTime>2025-01-03 02:12:08 UTC</createdTime>
+<ownerDesignName>hello</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D1BF1481-8A58-885F-1AB5-227FFBB62056" schemaObject="4F71788B-27E1-5A85-5D6E-9FF6F4143253" name="GRADE_PK">
+<sourceConnName>Project Management</sourceConnName>
+<sourceObjSchema>BIBEK</sourceObjSchema>
+<sourceObjName>SYS_C007137</sourceObjName>
+<createdBy>Acer</createdBy>
+<createdTime>2025-01-03 02:12:08 UTC</createdTime>
+<ownerDesignName>hello</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D183063-ABFF-F319-A356-929174E852F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

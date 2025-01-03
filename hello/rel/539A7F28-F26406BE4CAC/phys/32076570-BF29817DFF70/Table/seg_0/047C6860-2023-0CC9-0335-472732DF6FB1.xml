@@ -1,0 +1,39 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="ROLE" directorySegmentName="seg_0" id="047C6860-2023-0CC9-0335-472732DF6FB1">
+<createdBy>Acer</createdBy>
+<createdTime>2025-01-03 02:12:08 UTC</createdTime>
+<ownerDesignName>hello</ownerDesignName>
+<schemaObject>4F71788B-27E1-5A85-5D6E-9FF6F4143253</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>52635925-BBC1-B744-B0B8-F423382409FE</segment>
+<tableSpace>B8ECAD2A-0C74-16B8-5C04-EE1A08C3904E</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ROLEID" id="933BE48D-16E2-6DC4-A45A-CF81B83CF0AF">
+<createdBy>Acer</createdBy>
+<createdTime>2025-01-03 02:12:08 UTC</createdTime>
+<ownerDesignName>hello</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ROLENAME" id="B9847C62-5712-46E3-D685-7C7EB3466457">
+<createdBy>Acer</createdBy>
+<createdTime>2025-01-03 02:12:08 UTC</createdTime>
+<ownerDesignName>hello</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ROLE_PK" id="F67A4EBE-A9F3-00A7-6B1C-484CAF5A7AA8">
+<createdBy>Acer</createdBy>
+<createdTime>2025-01-03 02:12:09 UTC</createdTime>
+<ownerDesignName>hello</ownerDesignName>
+<schemaObject>4F71788B-27E1-5A85-5D6E-9FF6F4143253</schemaObject>
+<segment>4A136306-CA9E-2CC1-1237-1FDD920CD88D</segment>
+<tableSpace>B8ECAD2A-0C74-16B8-5C04-EE1A08C3904E</tableSpace>
+<indexSegment>4A136306-CA9E-2CC1-1237-1FDD920CD88D</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

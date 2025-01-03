@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="047C6860-2023-0CC9-0335-472732DF6FB1" schemaObject="4F71788B-27E1-5A85-5D6E-9FF6F4143253" name="ROLE">
+<sourceConnName>Project Management</sourceConnName>
+<sourceObjSchema>BIBEK</sourceObjSchema>
+<sourceObjName>ROLE</sourceObjName>
+<createdBy>Acer</createdBy>
+<createdTime>2025-01-03 02:12:08 UTC</createdTime>
+<ownerDesignName>hello</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ROLEID" id="933BE48D-16E2-6DC4-A45A-CF81B83CF0AF">
+<sourceConnName>Project Management</sourceConnName>
+<sourceObjSchema>ROLE</sourceObjSchema>
+<sourceObjName>ROLEID</sourceObjName>
+<createdBy>Acer</createdBy>
+<createdTime>2025-01-03 02:12:08 UTC</createdTime>
+<ownerDesignName>hello</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ROLENAME" id="B9847C62-5712-46E3-D685-7C7EB3466457">
+<sourceConnName>Project Management</sourceConnName>
+<sourceObjSchema>ROLE</sourceObjSchema>
+<sourceObjName>ROLENAME</sourceObjName>
+<createdBy>Acer</createdBy>
+<createdTime>2025-01-03 02:12:08 UTC</createdTime>
+<ownerDesignName>hello</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F67A4EBE-A9F3-00A7-6B1C-484CAF5A7AA8" schemaObject="4F71788B-27E1-5A85-5D6E-9FF6F4143253" name="ROLE_PK">
+<sourceConnName>Project Management</sourceConnName>
+<sourceObjSchema>BIBEK</sourceObjSchema>
+<sourceObjName>SYS_C007171</sourceObjName>
+<createdBy>Acer</createdBy>
+<createdTime>2025-01-03 02:12:08 UTC</createdTime>
+<ownerDesignName>hello</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="933BE48D-16E2-6DC4-A45A-CF81B83CF0AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

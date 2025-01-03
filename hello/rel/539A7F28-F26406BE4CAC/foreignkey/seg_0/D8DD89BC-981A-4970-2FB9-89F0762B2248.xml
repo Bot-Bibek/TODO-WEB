@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D8DD89BC-981A-4970-2FB9-89F0762B2248" containerWithKeyObject="8FA2A8DC-F346-07DD-691E-FC3F35A3EB1F" localFKIndex="97CEEEE3-EB3C-5511-3071-00895608C81A" name="SYS_C007174">
+<sourceConnName>Project Management</sourceConnName>
+<sourceObjSchema>BIBEK</sourceObjSchema>
+<sourceObjName>SYS_C007174</sourceObjName>
+<createdBy>Acer</createdBy>
+<createdTime>2025-01-03 02:12:09 UTC</createdTime>
+<ownerDesignName>hello</ownerDesignName>
+<referredTableLongName>BIBEK.USERS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FF78F2A0-8A79-34A4-0EB0-A041B77CEAC0</referredTableID>
+<keyObject>2B8F16D5-9063-6E18-BD53-306D52F04100</keyObject>
+<referredKeyID>2B8F16D5-9063-6E18-BD53-306D52F04100</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>USERID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

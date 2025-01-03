@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E3A5A9B6-B66C-6326-CFA4-E8E2135C21B4" schemaObject="4F71788B-27E1-5A85-5D6E-9FF6F4143253" name="USERTASK">
+<sourceConnName>Project Management</sourceConnName>
+<sourceObjSchema>BIBEK</sourceObjSchema>
+<sourceObjName>USERTASK</sourceObjName>
+<createdBy>Acer</createdBy>
+<createdTime>2025-01-03 02:12:08 UTC</createdTime>
+<ownerDesignName>hello</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="USERID" id="2401E542-8FFA-EE0C-3D07-108F84BD97E8">
+<sourceConnName>Project Management</sourceConnName>
+<sourceObjSchema>USERTASK</sourceObjSchema>
+<sourceObjName>USERID</sourceObjName>
+<createdBy>Acer</createdBy>
+<createdTime>2025-01-03 02:12:08 UTC</createdTime>
+<ownerDesignName>hello</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2846435B-50CB-C32F-90FF-8594E89B5FEE" referredColumn="4C4A505E-F6AE-074B-2D6A-4FB421436D68"/>
+</associations>
+</Column>
+<Column name="TASKID" id="79B3705E-89D1-6259-5007-F238D75C1206">
+<sourceConnName>Project Management</sourceConnName>
+<sourceObjSchema>USERTASK</sourceObjSchema>
+<sourceObjName>TASKID</sourceObjName>
+<createdBy>Acer</createdBy>
+<createdTime>2025-01-03 02:12:08 UTC</createdTime>
+<ownerDesignName>hello</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="90955655-33F9-84C9-4486-8650D4A524CB" referredColumn="0538C213-B046-B58C-D1EC-6563F3B62970"/>
+</associations>
+</Column>
+<Column name="ROLEID" id="FD6F611A-8806-55F6-815A-C03282ADD1B0">
+<sourceConnName>Project Management</sourceConnName>
+<sourceObjSchema>USERTASK</sourceObjSchema>
+<sourceObjName>ROLEID</sourceObjName>
+<createdBy>Acer</createdBy>
+<createdTime>2025-01-03 02:12:08 UTC</createdTime>
+<ownerDesignName>hello</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="72F599EB-E717-6733-5694-9BF80931777E" referredColumn="933BE48D-16E2-6DC4-A45A-CF81B83CF0AF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5B02535F-06C5-CF28-6A98-8DE1576B0010" name="SYS_C007179">
+<createdBy>Acer</createdBy>
+<createdTime>2025-01-03 02:12:09 UTC</createdTime>
+<ownerDesignName>hello</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2401E542-8FFA-EE0C-3D07-108F84BD97E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1E5FDCC2-6F09-1FBF-FCD2-9EED8E2EFACF" name="SYS_C007180">
+<createdBy>Acer</createdBy>
+<createdTime>2025-01-03 02:12:09 UTC</createdTime>
+<ownerDesignName>hello</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="79B3705E-89D1-6259-5007-F238D75C1206"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EAFFDA3C-AC29-7FD6-37FC-1BA2ACBA8EC0" name="SYS_C007181">
+<createdBy>Acer</createdBy>
+<createdTime>2025-01-03 02:12:09 UTC</createdTime>
+<ownerDesignName>hello</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD6F611A-8806-55F6-815A-C03282ADD1B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

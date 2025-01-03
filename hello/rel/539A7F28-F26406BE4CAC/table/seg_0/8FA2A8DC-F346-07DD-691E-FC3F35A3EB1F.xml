@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8FA2A8DC-F346-07DD-691E-FC3F35A3EB1F" schemaObject="4F71788B-27E1-5A85-5D6E-9FF6F4143253" name="USERPROJECT">
+<sourceConnName>Project Management</sourceConnName>
+<sourceObjSchema>BIBEK</sourceObjSchema>
+<sourceObjName>USERPROJECT</sourceObjName>
+<createdBy>Acer</createdBy>
+<createdTime>2025-01-03 02:12:08 UTC</createdTime>
+<ownerDesignName>hello</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="USERID" id="1AEA6E6F-5D06-9BEA-3B1B-CB6DE9336555">
+<sourceConnName>Project Management</sourceConnName>
+<sourceObjSchema>USERPROJECT</sourceObjSchema>
+<sourceObjName>USERID</sourceObjName>
+<createdBy>Acer</createdBy>
+<createdTime>2025-01-03 02:12:08 UTC</createdTime>
+<ownerDesignName>hello</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D8DD89BC-981A-4970-2FB9-89F0762B2248" referredColumn="4C4A505E-F6AE-074B-2D6A-4FB421436D68"/>
+</associations>
+</Column>
+<Column name="PROJECTID" id="1E5E137F-CB34-3B70-22A5-381C7B3C8DF8">
+<sourceConnName>Project Management</sourceConnName>
+<sourceObjSchema>USERPROJECT</sourceObjSchema>
+<sourceObjName>PROJECTID</sourceObjName>
+<createdBy>Acer</createdBy>
+<createdTime>2025-01-03 02:12:08 UTC</createdTime>
+<ownerDesignName>hello</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7F35305D-1E0B-91A8-1A4A-41F290F4A3A2" referredColumn="116F12C3-E522-F166-8EC5-D652CC387592"/>
+</associations>
+</Column>
+<Column name="POSITION" id="B4890E28-8EF4-77FF-83DF-AC62E6D475E0">
+<sourceConnName>Project Management</sourceConnName>
+<sourceObjSchema>USERPROJECT</sourceObjSchema>
+<sourceObjName>POSITION</sourceObjName>
+<createdBy>Acer</createdBy>
+<createdTime>2025-01-03 02:12:08 UTC</createdTime>
+<ownerDesignName>hello</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="97CEEEE3-EB3C-5511-3071-00895608C81A" name="SYS_C007174">
+<createdBy>Acer</createdBy>
+<createdTime>2025-01-03 02:12:09 UTC</createdTime>
+<ownerDesignName>hello</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1AEA6E6F-5D06-9BEA-3B1B-CB6DE9336555"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9409F56B-77AC-3BD6-CDD8-F9CEE922C0B7" name="SYS_C007175">
+<createdBy>Acer</createdBy>
+<createdTime>2025-01-03 02:12:09 UTC</createdTime>
+<ownerDesignName>hello</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E5E137F-CB34-3B70-22A5-381C7B3C8DF8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
